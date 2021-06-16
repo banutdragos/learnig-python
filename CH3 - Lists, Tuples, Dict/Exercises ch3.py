@@ -73,13 +73,13 @@ print(f"3.14. Set 'set_e2f' from 'e2f' dictionary: {set_e2f}\n")
 # nary with the keys 'cats', 'octopi', and 'emus'. Make the 'cats' key refer to a list
 # of strings with the values 'Henri', 'Grumpy', and 'Lucy'. Make all the other keys
 # refer to empty dictionaries.
-life={'animals': {'cats': ['Henry', 'Grumpy', 'Lucy'],
-                  'octopi': {},
-                  'emus': {}
-                  },
-      'plants': {},
-      'other': {}
-      }
+life = {'animals': {'cats': ['Henry', 'Grumpy', 'Lucy'],
+                    'octopi': {},
+                    'emus': {}
+                    },
+        'plants': {},
+        'other': {}
+        }
 
 # 3.16. Print the top-level keys of life.
 # Could've used print( list( life.keys() ) )
@@ -96,5 +96,3 @@ print()
 
 # 3.18. Print the values for life['animals']['cats'].
 print(f"3.18. Values for life['animals']['cats']: {life['animals']['cats']}")
-
-
